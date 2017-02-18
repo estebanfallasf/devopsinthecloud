@@ -22,9 +22,9 @@ Feature: Scripted provisioning of target environment
         When I run "/sbin/chkconfig --list httpd"
         Then I should see "3:on"
 
-#    Scenario: Httpd conf should have passenger variables
-#        When I scrape "/etc/httpd/conf/httpd.conf"
-#        Then "PassengerRoot /usr/local/share/ruby/gems/2.0/gems/passenger-5.0.7" should be present
+    Scenario: Httpd conf should have passenger variables
+        When I scrape "/etc/httpd/conf/httpd.conf"
+        Then "PassengerRoot /usr/local/share/ruby/gems/2.0/gems/passenger-5.0.7" should be present
 
     Scenario: Httpd conf should have a virtual host added
         When I scrape "/etc/httpd/conf/httpd.conf"
