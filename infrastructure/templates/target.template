@@ -197,6 +197,8 @@
 		  "#!/bin/bash -v\n",
 		  "date > /home/ec2-user/starttime\n",
           "yum update -y aws-cfn-bootstrap\n",
+	  "gem update --system",
+	  "gem install passenger",
 
           "# Install packages\n",
           "/opt/aws/bin/cfn-init -s ", { "Ref" : "AWS::StackName" }, " -r WebServer ",
