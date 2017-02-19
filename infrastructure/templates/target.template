@@ -56,9 +56,9 @@
       "c4.xlarge"   : { "Arch" : "64" }
     },
     "AWSRegionArch2AMI" : {
-      "us-east-1"      : { "32" : "ami-7f418316", "64" : "ami-6edd3078" },
-      "us-west-1"      : { "32" : "ami-951945d0", "64" : "ami-6edd3078" },
-      "us-west-2"      : { "32" : "ami-16fd7026", "64" : "ami-6edd3078" }
+      "us-east-1"      : { "32" : "ami-7f418316", "64" : "ami-0b33d91d" },
+      "us-west-1"      : { "32" : "ami-951945d0", "64" : "ami-0b33d91d" },
+      "us-west-2"      : { "32" : "ami-16fd7026", "64" : "ami-0b33d91d" }
     }
   },
 
