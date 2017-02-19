@@ -220,8 +220,6 @@
 		  "echo \"Defaults:%ec2-user !requiretty\" >> /etc/sudoers\n",
 		  "echo \"Defaults:ec2-user !requiretty\" >> /etc/sudoers\n",
 
-		  "/opt/aws/bin/cfn-signal", " -e 0", " '", { "Ref" : "WaitHandle" }, "'","\n",
-
 		  "date > /home/ec2-user/stoptime"
 		]]}}
       }
